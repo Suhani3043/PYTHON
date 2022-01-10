@@ -1,26 +1,26 @@
-(a)
+(a) #Create a tuple with different data types
 CODE: tuple = ("tuple",True, 5, 1)
 print(tuple)
 
-(b)
+(b)#Create a tuple with numbers and print one item
 CODE: tuple = 10,20,30,40,50
 print(tuple)
 tuple = 60,65,70
 print(tuple)
 
-(c)
+(c)#Add an item in tuple
 CODE: tuple1 = ("40","50","20")
 print(tuple1)
 new = ("30",)
 tuple2 = tuple1 + new
 print(tuple2)
 
-(d)
+(d)#Convert a tuple to string
 CODE: tuple = ('o', 'r', 'a', 'n', 'g', 'e', 's')
 str =  ''.join(tuple)
 print(str)
 
-(e)
+(e)#Find length of tuple
 CODE: tuple = ('fruit','vegetable')
 print(tuple)
 print(len(tuple))
