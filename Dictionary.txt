@@ -1,0 +1,35 @@
+(a)  
+CODE: d = {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+def is_key_present(x):
+  if x in d:
+      print('Key is present in the dictionary')
+  else:
+      print('Key is not present in the dictionary')
+is_key_present(5)
+is_key_present(9)
+
+
+(b)  
+CODE: d1 = {'a': 40, 'b': 20}
+d2 = {'x': 30, 'y': 60}
+d = d1.copy()
+d.update(d2)
+print(d)
+
+(c)
+CODE: my_dict = {'data1':200,'data2':34,'data3':20}
+print(sum(my_dict.values()))
+
+(d)
+CODE: d = {0:40, 2:30}
+print(d)
+d.update({4:20})
+print(d)
+
+(e)
+CODE: dic1={2:10, 3:20}
+dic2={4:30, 5:40}
+dic3={6:50,7:60}
+dic4 = {}
+for d in (dic1, dic2, dic3): dic4.update(d)
+print(dic4)
