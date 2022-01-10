@@ -1,4 +1,5 @@
-(a)
+20CS008-SUHANI BHATT
+(a)#Add member in set and clear a set
 CODE: num_set = set([0, 1, 2, 3, 4, 5])
 print("Original set elements:")
 print(num_set)
@@ -9,13 +10,13 @@ print("\nRemove 5 from original set:")
 num_set.discard(5)
 print(num_set)
 
-(b)
+(b)#Remove an item from a set if it is present in a set
 CODE: languages = {'Python', 'Java', 'English'}
 print(languages)
 languages.remove('English')
 print(languages)
 
-(c)
+(c)#Create an union,intersection,difference of sets
 CODE: A = {1, 2, 3, 4, 5};
 B = {6, 2, 5, 9, 10};
 print("Union :", A | B)
@@ -23,7 +24,7 @@ print("Intersection :", A & B)
 print("Difference :", A - B)
   
 
-(d)
+(d)#Find max. and min. vale in a set
 CODE: num = {5, 10, 3, 15, 2, 20}
 print("Original set elements:")
 print(num)
