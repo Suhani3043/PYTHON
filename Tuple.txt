@@ -1,0 +1,26 @@
+(a)
+CODE: tuple = ("tuple",True, 5, 1)
+print(tuple)
+
+(b)
+CODE: tuple = 10,20,30,40,50
+print(tuple)
+tuple = 60,65,70
+print(tuple)
+
+(c)
+CODE: tuple1 = ("40","50","20")
+print(tuple1)
+new = ("30",)
+tuple2 = tuple1 + new
+print(tuple2)
+
+(d)
+CODE: tuple = ('o', 'r', 'a', 'n', 'g', 'e', 's')
+str =  ''.join(tuple)
+print(str)
+
+(e)
+CODE: tuple = ('fruit','vegetable')
+print(tuple)
+print(len(tuple))
